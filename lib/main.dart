@@ -5,6 +5,8 @@ void main() {
 }
 
 class MyApp extends StatelessWidget {
+  
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,7 +21,7 @@ class MyApp extends StatelessWidget {
           ),
           actions: <Widget>[
             SizedBox(
-              width: 36,
+              width: 44,
               child: FlatButton(
                 child: Icon(Icons.search),
                 onPressed: (){
@@ -43,8 +45,15 @@ class MyApp extends StatelessWidget {
             children: <Widget>[
               Row(
                 children: <Widget>[
-                  Image.network(
-                    'https://www.google.com/url?sa=i&url=https%3A%2F%2Feverydayicons.jp%2Ficons%2Fpicture%2F&psig=AOvVaw1wBTp0dCtWl87JaUYqWsxF&ust=1639610904790000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCIiE3eG45PQCFQAAAAAdAAAAABAG'
+                  SizedBox(
+                    width: 60,
+                    height: 60,
+                    child:Image.network(
+                      'https://avatars.githubusercontent.com/u/65013756?s=200&v=4'
+                    ),
+                  ),
+                  const SizedBox(
+                    width: 8,
                   ),
                   Column(
                     children: <Widget>[
@@ -66,7 +75,7 @@ class MyApp extends StatelessWidget {
                         },
                       )
                     ],
-                  )
+                  ),
                 ],
               )
             ],
