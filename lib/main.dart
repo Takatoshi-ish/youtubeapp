@@ -93,11 +93,26 @@ class MyApp extends StatelessWidget {
                       ),
                       title: Column(
                         children: <Widget>[
-                          Text('[Flutter入門] youtubeアプリ画面を作る方法'),
+                          Text(
+                            '[Flutter入門] youtubeアプリ画面を作る方法',
+                            style: TextStyle(
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
                           Row(
                             children: <Widget>[
-                              Text('267回再生'),
-                              Text('5日前'),
+                              Text(
+                                '267回再生',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
+                              Text(
+                                '5日前',
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w500,
+                                ),
+                              ),
                             ],
                           ),
                         ],
