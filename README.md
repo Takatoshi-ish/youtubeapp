@@ -8,6 +8,7 @@ column, row, leading, trailing, ListViewを用いたレイアウト作成
 
 ## ■画像の参照元
 画像もFlutter大学のを使わせていただいております。
+
 ・１枚目
 https://avatars.githubusercontent.com/u/65013756?s=200&v=4
 
